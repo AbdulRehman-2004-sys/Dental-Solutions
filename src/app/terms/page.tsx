@@ -3,7 +3,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { FileText, Clock, AlertCircle, Info } from "lucide-react";
+import { FileText, Clock, AlertCircle, Info, Shield } from "lucide-react";
 
 export default function TermsOfService() {
   return (
