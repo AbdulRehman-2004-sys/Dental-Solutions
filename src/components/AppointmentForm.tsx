@@ -69,7 +69,7 @@ const AppointmentForm = () => {
               <span>Book Appointment</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-bold text-primary leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary leading-tight">
               Start Your <br />
               <span className="text-secondary italic">Smile Journey</span> Today.
             </h2>

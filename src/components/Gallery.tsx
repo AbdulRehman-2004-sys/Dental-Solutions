@@ -9,10 +9,10 @@ const galleryImages = [
   { src: "/images/clinic_exterior.jpg", alt: "Clinic Exterior", aspect: "aspect-video" },
   { src: "/images/dental_surgery.jpg", alt: "Laser Surgery Room", aspect: "aspect-square" },
   { src: "/images/clinic_signboard.jpg", alt: "Clinic Signboard", aspect: "aspect-video" },
-  { src: "/images/dr_fatima_poster.jpg", alt: "Dr. Fatima Anees", aspect: "aspect-square" },
+  { src: "/images/dr_fatima_poster.jpg", alt: "Dr. Fatima Anees", aspect: "aspect-video" },
   { src: "/images/waiting_area.jpg", alt: "Modern Waiting Area", aspect: "aspect-video" },
-  { src: "/images/eid_poster.jpg", alt: "Clinic Poster", aspect: "aspect-square" },
-  { src: "/images/horizontal_banner.jpg", alt: "Our Services", aspect: "aspect-video" },
+  { src: "/images/clinic_exterior.png", alt: "Clinic Exterior", aspect: "aspect-video" },
+ 
 ];
 
 const Gallery = () => {
@@ -33,7 +33,7 @@ const Gallery = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-primary mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6"
           >
             Gallery of <span className="text-secondary">Smiles</span> & Care
           </motion.h2>

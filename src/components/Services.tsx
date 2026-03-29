@@ -56,7 +56,7 @@ const Services = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-5xl font-bold text-primary mb-6 leading-tight"
+              className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6 leading-tight"
             >
               Precision Care <br />
               <span className="text-secondary">For Every Patient</span>
@@ -94,7 +94,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group relative h-[450px] overflow-hidden rounded-[40px] shadow-xl hover:shadow-2xl transition-all duration-500"
+              className="group relative h-[400px] sm:h-[450px] overflow-hidden rounded-[30px] sm:rounded-[40px] shadow-xl hover:shadow-2xl transition-all duration-500"
             >
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
@@ -102,15 +102,15 @@ const Services = () => {
                   src={service.image}
                   alt={service.title}
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale-[50%] group-hover:grayscale-0"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale-50 group-hover:grayscale-0"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent opacity-90 transition-opacity duration-500 group-hover:opacity-100" />
+                <div className="absolute inset-0 bg-linear-to-t from-primary via-primary/50 to-transparent opacity-90 transition-opacity duration-500 group-hover:opacity-100" />
               </div>
 
               {/* Icon / Content */}
-              <div className="absolute bottom-0 left-0 right-0 p-8 z-10 flex flex-col gap-4 transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
-                <div className={`${service.color} w-14 h-14 rounded-2xl flex items-center justify-center shadow-lg transform -rotate-6 group-hover:rotate-0 transition-all duration-500`}>
-                  <service.icon className="w-7 h-7 text-white" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8 z-10 flex flex-col gap-3 sm:gap-4 transform translate-y-8 sm:translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+                <div className={`${service.color} w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center shadow-lg transform -rotate-6 group-hover:rotate-0 transition-all duration-500`}>
+                  <service.icon className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
                 </div>
                 
                 <h3 className="text-2xl font-bold text-white group-hover:text-secondary transition-colors duration-300">

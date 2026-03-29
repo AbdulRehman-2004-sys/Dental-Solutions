@@ -30,7 +30,7 @@ const Hero = () => {
           className="flex flex-col gap-6"
         >
 
-          <h1 className="text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight mt-12">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight mt-12">
             Elevating Your <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-blue-300">Smile</span> With Care.
           </h1>
@@ -61,8 +61,8 @@ const Hero = () => {
           </div>
 
           {/* Stats/Badges */}
-          <div className="flex items-center gap-12 mt-8 py-6 border-t border-white/10">
-            <div className="flex flex-col gap-1">
+          <div className="flex flex-wrap items-center gap-6 sm:gap-12 mt-8 py-6 border-t border-white/10">
+            <div className="flex flex-col gap-1 min-w-[120px]">
               <div className="flex items-center gap-1 text-accent">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 fill-accent" />
@@ -72,9 +72,9 @@ const Hero = () => {
               <span className="text-gray-400 text-sm">Happy Patients</span>
             </div>
             
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 min-w-[120px]">
               <div className="flex items-center gap-2 text-secondary">
-                <ShieldCheck className="w-6 h-6" />
+                <ShieldCheck className="w-5 h-5 md:w-6 md:h-6" />
                 <span className="text-white font-bold">100% Secure</span>
               </div>
               <span className="text-gray-400 text-sm">Clinical Excellence</span>
@@ -89,7 +89,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className="hidden lg:flex justify-end pr-12 h-fit"
         >
-          <div className="relative w-full max-w-md">
+          <div className="relative w-full max-w-md -mt-24">
             <div className="absolute -inset-4 bg-secondary/10 blur-[100px] rounded-full pointer-events-none" />
             
             <ReviewSlider reviews={reviews} />

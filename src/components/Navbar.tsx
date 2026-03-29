@@ -35,29 +35,14 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-11 h-11 bg-secondary rounded-xl flex items-center justify-center shadow-lg group-hover:rotate-6 transition-all duration-300">
-            <svg 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              className="w-7 h-7 text-white" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-            >
-              <path d="M7 5C7 3.34315 8.34315 2 10 2H14C15.6569 2 17 3.34315 17 5V7C17 8.65685 15.6569 10 14 10H10C8.34315 10 7 8.65685 7 7V5Z" />
-              <path d="M7 11C7 15.4183 10.5817 19 15 19H17" strokeDasharray="2 2" />
-              <path d="M17 11C17 15.4183 13.4183 19 9 19H7" strokeDasharray="2 2" />
-              <path d="M10 10V22M14 10V22" />
-            </svg>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-extrabold text-xl leading-none tracking-tighter text-white group-hover:text-secondary transition-colors">
-              DENTAL <span className="text-secondary group-hover:text-white">SOLUTIONS</span>
+        <Link href="/" className="group flex items-center">
+          <img src="/images/logo.png" alt="Logo" width={60} height={80} />
+          <div className="flex flex-col ml-3">
+            <span className="font-extrabold text-xl md:text-2xl leading-none tracking-tighter text-white">
+              DENTAL
             </span>
-            <span className="text-[10px] text-gray-300 font-bold tracking-[0.2em] uppercase mt-1">
-              Dr. Fatima Anees
+            <span className="font-bold text-lg md:text-xl leading-none tracking-tight text-secondary -mt-0.5">
+              SOLUTIONS
             </span>
           </div>
         </Link>
@@ -82,12 +67,12 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Mobile Toggle */}
         <button
-          className="md:hidden text-primary p-2"
+          className="md:hidden text-white p-2 hover:bg-white/10 rounded-xl transition-colors"
+          aria-label="Toggle Menu"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
         </button>
       </div>
 
@@ -98,7 +83,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden glass mt-4 rounded-2xl overflow-hidden shadow-2xl border border-glass-border"
+            className="md:hidden bg-[#0B1B31]  mt-4 rounded-2xl overflow-hidden shadow-2xl border border-glass-border"
           >
             <div className="flex flex-col p-6 gap-4">
               {navLinks.map((link) => (
@@ -106,7 +91,7 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-primary font-bold text-lg hover:text-secondary py-2 border-b border-glass-border last:border-0"
+                  className="text-white font-bold text-lg hover:text-secondary py-2 border-b border-glass-border last:border-0"
                 >
                   {link.name}
                 </Link>
@@ -121,7 +106,7 @@ const Navbar = () => {
               </Link>
               <div className="flex items-center justify-center gap-3 text-secondary font-bold pt-2">
                 <Phone className="w-5 h-5" />
-                <span>+92 3XX XXXXXXX</span>
+                <span>+92 3048856789</span>
               </div>
             </div>
           </motion.div>

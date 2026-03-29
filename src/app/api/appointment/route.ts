@@ -6,12 +6,13 @@ import nodemailer from "nodemailer";
 export async function POST(req: Request) {
   try {
     await dbConnect();
-    const { name, phone, service, date, time } = await req.json();
+    const { name, phone, email, service, date, time } = await req.json();
 
     // Create the appointment in the database
     const appointment = await Appointment.create({
       name,
       phone,
+      email,
       service,
       date,
       time,
