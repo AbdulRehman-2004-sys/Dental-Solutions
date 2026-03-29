@@ -39,7 +39,7 @@ export async function POST(req: Request) {
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 20px; background-color: #fcfcfc;">
           <div style="text-align: center; margin-bottom: 20px;">
-            <h2 style="color: #0A192F; font-size: 24px; margin-bottom: 5px;">Dental Solutions</h2>
+            <h2 style="color: #0A192F; font-size: 24px; margin-bottom: 5px;">LALA MEDICAL COMPLEX</h2>
             <p style="color: #0EA5E9; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-top: 5px;">New Appointment Request</p>
           </div>
           
@@ -57,7 +57,7 @@ export async function POST(req: Request) {
           </div>
 
           <hr style="margin-top: 40px; border: none; border-top: 1px solid #eee;" />
-          <p style="font-size: 11px; color: #aaa; text-align: center;">This is an automated notification from the Dental Solutions Web Portal. All actions are securely logged.</p>
+          <p style="font-size: 11px; color: #aaa; text-align: center;">This is an automated notification from the LALA MEDICAL COMPLEX Web Portal. All actions are securely logged.</p>
         </div>
       `,
     };

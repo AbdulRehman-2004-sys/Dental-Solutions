@@ -143,8 +143,8 @@ const AdminDashboard = () => {
         {/* Header Section */}
         <header className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex flex-col gap-2">
-            <h1 className="text-4xl font-extrabold tracking-tight">Clinic Dashboard</h1>
-            <p className="text-gray-400">Welcome back, Dr. Fatima Anees.</p>
+            <h1 className="text-4xl font-extrabold tracking-tight">Hospital Dashboard</h1>
+            <p className="text-gray-400">Welcome back, Lala Medical Complex Admin.</p>
           </div>
           
           <div className="flex items-center gap-4">
@@ -189,7 +189,7 @@ const AdminDashboard = () => {
 
         {/* Appointments Table */}
         <div className="bg-white/5 border border-white/10 rounded-[40px] overflow-hidden shadow-2xl">
-          <div className="p-8 border-b border-white/10 flex items-center justify-between bg-white/[0.02]">
+          <div className="p-8 border-b border-white/10 flex items-center justify-between bg-white/2">
             <h2 className="text-xl font-bold flex items-center gap-2">
               <History className="w-5 h-5 text-secondary" />
               Recent Appointments
@@ -209,7 +209,7 @@ const AdminDashboard = () => {
           <div className="overflow-x-auto">
             <table className="w-full text-left">
               <thead>
-                <tr className="bg-white/[0.01] border-b border-white/5">
+                <tr className="bg-white/1 border-b border-white/5">
                   <th className="px-8 py-6 text-sm font-bold text-gray-400 uppercase tracking-widest">Patient Details</th>
                   <th className="px-6 py-6 text-sm font-bold text-gray-400 uppercase tracking-widest">Service</th>
                   <th className="px-6 py-6 text-sm font-bold text-gray-400 uppercase tracking-widest">Date & Time</th>
@@ -219,7 +219,7 @@ const AdminDashboard = () => {
               </thead>
               <tbody className="divide-y divide-white/5">
                 {appointments.map((apt) => (
-                  <tr key={apt._id} className="hover:bg-white/[0.02] transition-colors group">
+                  <tr key={apt._id} className="hover:bg-white/2 transition-colors group">
                     <td className="px-8 py-6">
                       <div className="flex flex-col gap-0.5">
                         <span className="font-bold text-lg text-white group-hover:text-secondary transition-colors">{apt.name}</span>

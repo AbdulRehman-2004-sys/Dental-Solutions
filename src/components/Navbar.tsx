@@ -36,13 +36,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="group flex items-center">
-          <img src="/images/logo.png" alt="Logo" width={60} height={80} />
+          {/* <img src="/images/logo.png" alt="Logo" width={60} height={80} /> */}
           <div className="flex flex-col ml-3">
             <span className="font-extrabold text-xl md:text-2xl leading-none tracking-tighter text-white">
-              DENTAL
+              LALA MEDICAL
             </span>
             <span className="font-bold text-lg md:text-xl leading-none tracking-tight text-secondary -mt-0.5">
-              SOLUTIONS
+              COMPLEX
             </span>
           </div>
         </Link>
@@ -106,7 +106,7 @@ const Navbar = () => {
               </Link>
               <div className="flex items-center justify-center gap-3 text-secondary font-bold pt-2">
                 <Phone className="w-5 h-5" />
-                <span>+92 3048856789</span>
+                <span>+92 300 6708300</span>
               </div>
             </div>
           </motion.div>

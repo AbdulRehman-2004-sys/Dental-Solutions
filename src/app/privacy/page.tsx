@@ -39,12 +39,12 @@ export default function PrivacyPolicy() {
               <div>
                 <h2 className="text-2xl font-bold mb-4 text-primary">Information We Collect</h2>
                 <div className="space-y-4 text-gray-600 leading-relaxed">
-                  <p>At Dental Solutions, we collect personal information necessary to provide you with high-quality dental care. This includes:</p>
+                  <p>At LALA MEDICAL COMPLEX, we collect personal information necessary to provide you with high-quality medical care. This includes:</p>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Contact details (Name, phone number, email)</li>
-                    <li>Medical history and previous dental records</li>
-                    <li>Insurance information and payment details</li>
-                    <li>Digital X-rays and imaging</li>
+                    <li>Medical history and previous clinical records</li>
+                    <li>Insurance information (e.g. Sehat Insaf Card) and payment details</li>
+                    <li>Digital X-rays, Ultrasounds, and Pathology reports</li>
                   </ul>
                 </div>
               </div>
@@ -59,9 +59,9 @@ export default function PrivacyPolicy() {
                 <div className="space-y-4 text-gray-600 leading-relaxed">
                   <p>Your data is used exclusively for clinical and administrative purposes:</p>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Diagnosing and treating your dental conditions</li>
-                    <li>Scheduling appointments and follow-up care</li>
-                    <li>Processing insurance claims and billing</li>
+                    <li>Diagnosing and treating your medical conditions</li>
+                    <li>Scheduling appointments and surgical procedures</li>
+                    <li>Processing insurance claims (including Sehat Card) and billing</li>
                     <li>Communicating clinic updates and health reminders</li>
                   </ul>
                 </div>
@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
           
           <div className="mt-16 pt-8 border-t border-gray-100 text-center">
             <p className="text-gray-400 text-sm">
-              Last Updated: March 29, 2026. For privacy concerns, contact us at +92 3048856789.
+              Last Updated: March 29, 2026. For privacy concerns, contact us at +92 300 6708300.
             </p>
           </div>
         </div>

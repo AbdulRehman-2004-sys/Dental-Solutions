@@ -21,7 +21,7 @@ export default function TermsOfService() {
             Terms <span className="text-secondary">of Service</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            These terms govern your relationship with Dental Solutions as a patient or 
+            These terms govern your relationship with LALA MEDICAL COMPLEX as a patient or 
             visitor. We strive to provide transparent and fair service to all our patients.
           </p>
         </div>
@@ -61,7 +61,7 @@ export default function TermsOfService() {
                   <p>We are committed to maintaining a safe and professional environment for both patients and staff:</p>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Patients are expected to behave respectfully toward the clinical team and other visitors.</li>
-                    <li>Follow all post-procedure care instructions as provided by the dentist to ensure safe recovery.</li>
+                    <li>Follow all post-procedure care instructions as provided by the medical staff to ensure safe recovery.</li>
                     <li>Disclose all relevant health information and medications truly for safe treatment planning.</li>
                   </ul>
                 </div>
@@ -93,7 +93,7 @@ export default function TermsOfService() {
                 <h2 className="text-2xl font-bold mb-4 text-primary">Disclaimer & Liability</h2>
                 <p className="text-gray-600 leading-relaxed">
                   While we use advanced technology and follow clinical best practices, medical results 
-                  can vary. Dental Solutions and its clinical staff are not liable for complications 
+                  can vary. LALA MEDICAL COMPLEX and its clinical staff are not liable for complications 
                   resulting from undisclosed medical history or non-compliance with post-operative 
                   care instructions.
                 </p>

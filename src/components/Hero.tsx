@@ -31,14 +31,14 @@ const Hero = () => {
         >
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight mt-12">
-            Elevating Your <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-blue-300">Smile</span> With Care.
+            Excellence in <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-blue-300">Healthcare</span> With Care.
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl max-w-xl leading-relaxed">
-            Experience premium dental solutions with <span className="text-secondary font-extrabold">Dr. Fatima Anees</span>. 
-            From advanced laser dentistry to aesthetic smile makeovers, we blend 
-            technology with a gentle touch.
+            Welcome to <span className="text-secondary font-extrabold">LALA MEDICAL COMPLEX</span>, your destination for advanced medicine. 
+            From 24/7 emergency response to specialized surgical care, we blend 
+            cutting-edge technology with compassionate service.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
@@ -68,14 +68,14 @@ const Hero = () => {
                   <Star key={i} className="w-4 h-4 fill-accent" />
                 ))}
               </div>
-              <span className="text-white font-bold text-lg">500+</span>
+              <span className="text-white font-bold text-lg">50,000+</span>
               <span className="text-gray-400 text-sm">Happy Patients</span>
             </div>
             
-            <div className="flex flex-col gap-2 min-w-[120px]">
+            <div className="flex flex-col gap-2 min-w-[120zpx]">
               <div className="flex items-center gap-2 text-secondary">
                 <ShieldCheck className="w-5 h-5 md:w-6 md:h-6" />
-                <span className="text-white font-bold">100% Secure</span>
+                <span className="text-white font-bold">24/7 Support</span>
               </div>
               <span className="text-gray-400 text-sm">Clinical Excellence</span>
             </div>
@@ -104,29 +104,29 @@ const Hero = () => {
 
 const reviews = [
   {
-    name: "Uzma Khalid",
-    content: "I was nervous about my broken fillings but Dr. Fatima Anees made it so easy and fixed them. She used a laser instead of a drill, so there was no scary noise and no pain. It was much better than the old way. I highly recommend her.",
+    name: "Ali Raza",
+    content: "The emergency care at Lala Medical Complex is exceptional. The staff was professional and the facilities are state-of-the-art. Highly recommended for any medical needs.",
     patient: "Verified Patient",
   },
   {
-    name: "Muhammad Abdullah",
-    content: "I got scaling done and treatment for wisdom tooth removal. The pain was significantly reduced after just one consultation. Very satisfied.",
-    patient: "Verified Patient",
+    name: "Sarah Khan",
+    content: "Had my surgery here and the experience was seamless. The doctors are highly qualified and the nursing staff is very attentive. Best hospital in Rahim Yar Khan.",
+    patient: "Surgical Patient",
   },
   {
-    name: "Muhammad Ghufran",
-    content: "Dr Fatima is very professional and kind. She made me feel comfortable and explained everything clearly. The treatment was smooth and painless.",
-    patient: "Verified Patient",
+    name: "Usman Ahmed",
+    content: "Very satisfied with the diagnostic services. The X-ray and Ultrasound were done quickly and results were accurate. Clean and professional environment.",
+    patient: "Clinical Reviewer",
   },
   {
-    name: "Bahat Auto",
-    content: "Affordable prices with best dentistry. Very satisfied. Neat and clean clinic.",
-    patient: "Clinic Reviewer",
+    name: "Fatima Bibi",
+    content: "They accept Sehat Insaf Card which is a blessing for many. The treatment provided was excellent without any hassle. Very grateful to the team.",
+    patient: "Sehat Card User",
   },
   {
-    name: "Ayesha Zafar",
-    content: "Wonderful experience. Polite, kind, and gentle approach. Warm attitude towards patients.",
-    patient: "Patient",
+    name: "Zafar Iqbal",
+    content: "A reliable medical complex with all facilities under one roof. Pharmacy, Lab, and Doctors are available 24/7. Very convenient.",
+    patient: "Regular Patient",
   },
 ];
 

@@ -15,47 +15,45 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dental Solutions | Dr. Fatima Anees - Premium Dental Care",
-    template: "%s | Dental Solutions"
+    default: "LALA MEDICAL COMPLEX | Rahim Yar Khan - Advanced Healthcare",
+    template: "%s | LALA MEDICAL COMPLEX"
   },
-  description: "Experience world-class dental solutions with Dr. Fatima Anees in Rahim Yar Khan. Specialized in Laser Dentistry, Oral Surgery, Scaling & Polishing, and Smile Makeovers.",
+  description: "Experience advanced healthcare at LALA MEDICAL COMPLEX in Rahim Yar Khan. Specialized in 24/7 Emergency, ICU, General/Orthopedic Surgery, and Specialized Polyclinic services.",
   keywords: [
-    "Dental Solutions",
-    "Dr. Fatima Anees",
-    "Best Dentist in Rahim Yar Khan",
-    "Laser Dentistry RYK",
-    "Oral Surgery",
-    "Dental Implant",
-    "Teeth Whitening",
-    "Smile Makeover",
-    "Scaling and Polishing",
-    "Dental Clinic Rahim Yar Khan",
-    "Dental Solutions RYK"
+    "Lala Medical Complex",
+    "Lala Hospital Rahim Yar Khan",
+    "Best Hospital in Rahim Yar Khan",
+    "24/7 Emergency RYK",
+    "General Surgery Rahim Yar Khan",
+    "Orthopedic Hospital RYK",
+    "Sehat Insaf Card Hospital",
+    "Specialized Poly Clinic",
+    "Lala Medical Complex RYK"
   ],
-  authors: [{ name: "Dr. Fatima Anees" }],
-  creator: "Dr. Fatima Anees",
-  publisher: "Dental Solutions",
+  authors: [{ name: "LALA MEDICAL COMPLEX" }],
+  creator: "LALA MEDICAL COMPLEX",
+  publisher: "LALA MEDICAL COMPLEX",
   formatDetection: {
     email: false,
     address: true,
     telephone: true,
   },
-  metadataBase: new URL("https://dentalsolutionsryk.com"), // Replace with actual domain
+  metadataBase: new URL("https://lalamedicalcomplex.com"), // Replace with actual domain
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Dental Solutions | Dr. Fatima Anees",
-    description: "Premium Dental Care in Rahim Yar Khan. Specialized in advanced dentistry and patient care.",
-    url: "https://dentalsolutionsryk.com",
-    siteName: "Dental Solutions",
+    title: "LALA MEDICAL COMPLEX | Rahim Yar Khan",
+    description: "Advanced Healthcare and Surgical Excellence in Rahim Yar Khan. 24/7 Emergency and specialized care.",
+    url: "https://lalamedicalcomplex.com",
+    siteName: "LALA MEDICAL COMPLEX",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dental Solutions | Dr. Fatima Anees",
-    description: "Premium Dental Care in Rahim Yar Khan. Specialized in advanced dentistry and patient care.",
+    title: "LALA MEDICAL COMPLEX | Rahim Yar Khan",
+    description: "Advanced Healthcare and Surgical Excellence in Rahim Yar Khan. 24/7 Emergency and specialized care.",
   },
   icons: {
     icon: "/images/logo.png",

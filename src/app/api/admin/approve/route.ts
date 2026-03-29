@@ -95,11 +95,11 @@ async function sendPatientEmail(appointment: any) {
     from: process.env.EMAIL_USER,
     to: appointment.email,
     subject: isApproved 
-      ? "Appointment Confirmed - Dental Solutions" 
-      : "Appointment Update - Dental Solutions",
+      ? "Appointment Confirmed - LALA MEDICAL COMPLEX" 
+      : "Appointment Update - LALA MEDICAL COMPLEX",
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #eee; border-radius: 20px;">
-        <h2 style="color: #0A192F;">Dental Solutions</h2>
+        <h2 style="color: #0A192F;">LALA MEDICAL COMPLEX</h2>
         <p>Dear <strong>${appointment.name}</strong>,</p>
         
         ${isApproved ? `

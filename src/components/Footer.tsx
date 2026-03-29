@@ -49,24 +49,24 @@ const Footer = () => {
         {/* Brand Info */}
         <div className="flex flex-col gap-6">
           <Link href="/" className="group flex items-center">
-          <img src="/images/logo.png" alt="Logo" width={60} height={80} />
-            <div className="flex flex-col">
-              <span className="font-extrabold text-2xl leading-none tracking-tighter text-primary dark:text-white">
-                DENTAL
+          {/* <img src="/images/logo.png" alt="Logo" width={60} height={80} /> */}
+            <div className="flex flex-col ml-3">
+              <span className="font-extrabold text-2xl leading-none tracking-tighter text-white">
+                LALA MEDICAL
               </span>
               <span className="font-bold text-xl leading-none tracking-tight text-secondary -mt-0.5">
-                SOLUTIONS
+                COMPLEX
               </span>
             </div>
           </Link>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-            Providing premium dental care using advanced technology and
-            a patient-first approach. Your smile is our mission.
+            Advanced healthcare and surgical excellence in Rahim Yar Khan. 
+            Committed to 24/7 emergency care and patient well-being.
           </p>
           <div className="flex items-center gap-4">
             {[
-              { Icon: Facebook, href: "https://www.facebook.com/p/Dental-Solutions-Dr-Fatima-Anees-61559802562867/" },
-              { Icon: Instagram, href: "https://www.instagram.com/dentalsolutions.ryk/" }
+              { Icon: Facebook, href: "https://www.facebook.com/p/Lala-Medical-Complex-RYK-100068040473835/" },
+              { Icon: Instagram, href: "https://instacare.pk/hospitals/rahim-yar-khan/basti-amanat-ali/lala-medical-complex-ryk" }
             ].map((social, i) => (
               <motion.a
                 key={i}
@@ -104,11 +104,11 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <h4 className="text-lg font-bold border-b border-white/10 pb-4 w-fit pr-12">Our Services</h4>
           <ul className="flex flex-col gap-4 text-gray-400 text-sm">
-            <li>Laser Dentistry</li>
-            <li>Oral Surgery</li>
-            <li>Scaling & Polishing</li>
-            <li>Wisdom Tooth Removal</li>
-            <li>Smile Makeover</li>
+            <li>Emergency & ICU</li>
+            <li>Specialized Surgery</li>
+            <li>Diagnostics Unit</li>
+            <li>Specialized Clinics</li>
+            <li>Neonatal Nursery</li>
           </ul>
         </div>
 
@@ -122,7 +122,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col text-sm">
                 <span className="font-bold">Clinic Address</span>
-                <span className="text-gray-400 mt-1">Main Abu Dhabi Road, Bank, near Allied, Rahim Yar Khan, 64200, Pakistan</span>
+                <span className="text-gray-400 mt-1">Airport Road, Basti Amanat Ali, Rahim Yar Khan, Punjab 64200, Pakistan</span>
               </div>
             </li>
             <li className="flex gap-4">
@@ -131,7 +131,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col text-sm">
                 <span className="font-bold">Contact Number</span>
-                <span className="text-gray-400 mt-1">+92 3048856789</span>
+                <span className="text-gray-400 mt-1">+92 300 6708300</span>
               </div>
             </li>
           </ul>
@@ -141,7 +141,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
         <p className="text-gray-500 text-xs flex items-center gap-1.5">
-          © 2026 Dental Solutions. Made with <Heart className="w-3.5 h-3.5 text-secondary fill-secondary" /> for healthy smiles.
+          © {new Date().getFullYear()} LALA MEDICAL COMPLEX. Partners: Sehat Insaf Card.
         </p>
 
         <div className="flex gap-8 text-xs text-gray-500">

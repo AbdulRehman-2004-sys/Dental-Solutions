@@ -3,34 +3,34 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Zap, Scissors, Sparkles, Smile, ArrowRight, HeartPulse } from "lucide-react";
+import { Activity, Stethoscope, Microscope, Baby, ArrowRight, HeartPulse } from "lucide-react";
 
 const services = [
   {
-    title: "Laser Dentistry",
-    description: "Advanced laser treatments for painless gum procedures and cavity preparations.",
-    icon: Zap,
+    title: "Emergency & ICU",
+    description: "24/7 intensive care and emergency response for critical medical situations.",
+    icon: Activity,
     image: "/images/laser-service.png",
-    color: "bg-blue-500",
+    color: "bg-red-500",
   },
   {
-    title: "Oral Surgery",
-    description: "Expert surgical care for complex cases and wisdom tooth extractions with precision.",
-    icon: Scissors,
+    title: "Specialized Surgery",
+    description: "Expert General, Orthopedic, and Urology surgical procedures with modern tech.",
+    icon: Stethoscope,
     image: "/images/clinic-detail.png",
+    color: "bg-blue-600",
+  },
+  {
+    title: "Diagnostics Unit",
+    description: "Digital X-ray, 4D Ultrasound, and full Pathology Lab services on-site.",
+    icon: Microscope,
+    image: "/images/laser-service.png",
     color: "bg-indigo-500",
   },
   {
-    title: "Scaling & Polishing",
-    description: "Deep ultrasonic cleaning to remove plaque and restore your natural tooth brightness.",
-    icon: Sparkles,
-    image: "/images/hero-bg.png",
-    color: "bg-cyan-500",
-  },
-  {
-    title: "Smile Makeover",
-    description: "Comprehensive aesthetic treatments including whitening, veneers, and alignment.",
-    icon: Smile,
+    title: "Specialized Clinics",
+    description: "Expert Gynae, Eye, ENT consultations and Neonatal Nursery facilities.",
+    icon: Baby,
     image: "/images/clinic-detail.png",
     color: "bg-teal-500",
   },
@@ -68,9 +68,9 @@ const Services = () => {
               viewport={{ once: true }}
               className="text-gray-500 text-lg leading-relaxed"
             >
-              We provide state-of-the-art dental services using the latest 
-              technologies in the medical field. Our goal is to make every 
-              visit comfortable, painless, and highly effective.
+              We provide state-of-the-art medical services using the latest 
+              technologies in the healthcare field. Our goal is to ensure 
+              fast recovery and premium care for every patient.
             </motion.p>
           </div>
           

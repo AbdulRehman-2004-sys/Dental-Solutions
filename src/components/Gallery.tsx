@@ -6,13 +6,12 @@ import { motion } from "framer-motion";
 import { ImageIcon, Camera, Layout } from "lucide-react";
 
 const galleryImages = [
-  { src: "/images/clinic_exterior.jpg", alt: "Clinic Exterior", aspect: "aspect-video" },
-  { src: "/images/dental_surgery.jpg", alt: "Laser Surgery Room", aspect: "aspect-square" },
-  { src: "/images/clinic_signboard.jpg", alt: "Clinic Signboard", aspect: "aspect-video" },
-  { src: "/images/dr_fatima_poster.jpg", alt: "Dr. Fatima Anees", aspect: "aspect-video" },
-  { src: "/images/waiting_area.jpg", alt: "Modern Waiting Area", aspect: "aspect-video" },
-  { src: "/images/clinic_exterior.png", alt: "Clinic Exterior", aspect: "aspect-video" },
- 
+  { src: "/images/img1.png", alt: "Modern Hospital Exterior", aspect: "aspect-video" },
+  { src: "/images/img2.png", alt: "Advanced Surgical Unit", aspect: "aspect-square" },
+  { src: "/images/img3.png", alt: "Diagnostic Lab", aspect: "aspect-video" },
+  { src: "/images/img5.png", alt: "Surgical Theater", aspect: "aspect-video" },
+  { src: "/images/img4.png", alt: "Patient Waiting Area", aspect: "aspect-square" },
+  { src: "/images/img6.png", alt: "Lala Medical Complex", aspect: "aspect-video" },
 ];
 
 const Gallery = () => {
@@ -35,7 +34,7 @@ const Gallery = () => {
             viewport={{ once: true }}
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6"
           >
-            Gallery of <span className="text-secondary">Smiles</span> & Care
+            Gallery of <span className="text-secondary">Healing</span> & Care
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, scale: 0.95 }}
@@ -44,7 +43,7 @@ const Gallery = () => {
             className="text-gray-500 max-w-2xl mx-auto text-lg"
           >
             Take a visual tour of our modern facilities and see the high-precision 
-            technology we use to ensure your comfort and dental health.
+            technology we use to ensure your health and recovery.
           </motion.p>
         </div>
 

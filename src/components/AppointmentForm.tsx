@@ -6,11 +6,13 @@ import { Calendar, Clock, User, Phone, CheckCircle, ArrowRight, Loader2, Send, M
 import { cn } from "@/lib/utils";
 
 const services = [
-  "Laser Dentistry",
-  "Oral Surgery",
-  "Scaling & Polishing",
-  "Wisdom Tooth Removal",
-  "Smile Makeover",
+  "Emergency & ICU",
+  "General Surgery",
+  "Orthopedic Surgery",
+  "Urology & Nephrology",
+  "Gynae & Pediatrics",
+  "Diagnostics (X-ray/Ultrasound)",
+  "Eye & ENT",
   "General Consultation",
 ];
 
@@ -71,7 +73,7 @@ const AppointmentForm = () => {
             
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary leading-tight">
               Start Your <br />
-              <span className="text-secondary italic">Smile Journey</span> Today.
+              <span className="text-secondary italic">Healing Journey</span> Today.
             </h2>
             
             <p className="text-gray-500 text-lg leading-relaxed max-w-lg">
@@ -81,10 +83,10 @@ const AppointmentForm = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
               {[
-                { label: "Painless", detail: "Advanced Laser Tech" },
-                { label: "Certified", detail: "Dr. Fatima Anees" },
+                { label: "Emergency", detail: "24/7 Support" },
+                { label: "Specialized", detail: "Expert Surgeons" },
                 { label: "Modern", detail: "Top clinical equipment" },
-                { label: "Fast", detail: "Swift recovery times" },
+                { label: "Care", detail: "Patient-first approach" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-4 bg-gray-50 p-4 rounded-2xl border border-gray-100 hover:border-secondary transition-colors">
                   <div className="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center text-secondary">

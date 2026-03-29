@@ -6,37 +6,37 @@ import { Star, Quote, Heart, CheckCircle2 } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Uzma Khalid",
+    name: "Ali Raza",
     role: "Patient",
-    text: "I was nervous about my broken fillings but Dr. Fatima Anees made it so easy and fixed them. She used a laser instead of a drill, so there was no scary noise and no pain. It was much better than the old way. I highly recommend her.",
+    text: "The emergency care at Lala Medical Complex is exceptional. The staff was professional and the facilities are state-of-the-art. Highly recommended for any medical needs.",
     stars: 5,
     date: "A week ago",
   },
   {
-    name: "Muhammad Abdullah",
-    role: "Patient",
-    text: "I got scaling done and treatment for wisdom tooth removal. The pain was significantly reduced after just one consultation. Very satisfied.",
+    name: "Sarah Khan",
+    role: "Surgical Patient",
+    text: "Had my surgery here and the experience was seamless. The doctors are highly qualified and the nursing staff is very attentive. Best hospital in Rahim Yar Khan.",
     stars: 5,
     date: "2 weeks ago",
   },
   {
-    name: "Muhammad Ghufran",
-    role: "Patient",
-    text: "Dr Fatima is very professional and kind. She made me feel comfortable and explained everything clearly. The treatment was smooth and painless.",
+    name: "Usman Ahmed",
+    role: "Clinical Reviewer",
+    text: "Very satisfied with the diagnostic services. The X-ray and Ultrasound were done quickly and results were accurate. Clean and professional environment.",
     stars: 5,
     date: "1 month ago",
   },
   {
-    name: "Bahat Auto",
-    role: "Clinic Reviewer",
-    text: "Affordable prices with best dentistry. Very satisfied. Neat and clean clinic.",
+    name: "Fatima Bibi",
+    role: "Sehat Card User",
+    text: "They accept Sehat Insaf Card which is a blessing for many. The treatment provided was excellent without any hassle. Very grateful to the team.",
     stars: 5,
     date: "3 months ago",
   },
   {
-    name: "Ayesha Zafar",
-    role: "Patient",
-    text: "Wonderful experience. Polite, kind, and gentle approach. Warm attitude towards patients.",
+    name: "Zafar Iqbal",
+    role: "Regular Patient",
+    text: "A reliable medical complex with all facilities under one roof. Pharmacy, Lab, and Doctors are available 24/7. Very convenient.",
     stars: 5,
     date: "2 days ago",
   },
@@ -85,7 +85,7 @@ const Testimonials = () => {
             className="text-gray-400 max-w-2xl text-lg"
           >
             Don't just take our word for it. Here's what our patients have to say 
-            about their journey to a healthier, brighter smile.
+            about their journey to healing and recovery at Lala Medical Complex.
           </motion.p>
         </div>
 
@@ -118,7 +118,7 @@ const Testimonials = () => {
 
                   <div className="mt-4 pt-6 border-t border-white/10 flex items-center justify-between">
                     <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-secondary/50 to-blue-500/50 flex items-center justify-center border border-white/10">
+                      <div className="w-12 h-12 rounded-full bg-linear-to-br from-secondary/50 to-blue-500/50 flex items-center justify-center border border-white/10">
                         <span className="text-white font-bold text-xl">{item.name.charAt(0)}</span>
                       </div>
                       <div className="flex flex-col">
